@@ -9,7 +9,6 @@ describe('Book Component', () => {
     author: 'Test Author',
     publishedDate: '2021',
   };
-  // ... previous code ...
 
   test('renders book information', () => {
     render(

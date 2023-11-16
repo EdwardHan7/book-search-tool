@@ -125,7 +125,7 @@ body {
   line-height: 1.5;
 }
 .book {
-  border: 1px solid grey; /* 或者其他显眼的颜色 */
+  border: 1px solid grey; 
 }
 @media (max-width: 600px) {
   .container {

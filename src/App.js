@@ -9,7 +9,7 @@ const App = () => {
 
   const handleSearch = async (title) => {
     const results = await searchBooks(title);
-    console.log('Search results for:', title, results); // 这行会打印搜索结果sa
+    console.log('Search results for:', title, results); // pring results
     setBooks(results);
   };
 
