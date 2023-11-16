@@ -90,7 +90,7 @@ body {
 
 .book-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: 1fr;
   gap: 20px;
   width: 100%;
   max-width: 600px; /* Adjust this value as per your design */
@@ -116,20 +116,23 @@ body {
 }
 
 .book p {
+
+  word-wrap: break-word; /* Allows long words to be able to be broken and wrap onto the next line */
+  overflow-wrap: break-word; /* Similar to word-wrap, ensures the breakage of long words */
+  hyphens: auto; /* Automatically add hyphens when breaking words */
+
   font-size: 1em; /* Responsive font size */
   line-height: 1.5;
 }
-
+.book {
+  border: 1px solid grey; /* 或者其他显眼的颜色 */
+}
 @media (max-width: 600px) {
   .container {
     padding: 0 10px;
   }
 
   .search-bar input,
-  .sorting-buttons button {
-    width: 100%;
-    max-width: none;
-  }
 
   .book-list {
     grid-template-columns: 1fr;

@@ -36,23 +36,70 @@ const SearchBar = ({ onSearch }) => {
     }
   };
 };
-
 export default SearchBar;
+```
 
-
-3. Tracking Performance Issues
+## 3. Tracking Performance Issues
 To track down a page performance issue in production, I would take the following steps:
 
-Profiling and Audits: Use Chrome DevTools for profiling the page and running Lighthouse audits to pinpoint issues.
-Load Testing: Simulate high traffic to understand how the system behaves under stress.
+- **Profiling and Audits:** Use Chrome DevTools for profiling the page and running Lighthouse audits to pinpoint issues.
+- **Load Testing:** Simulate high traffic to understand how the system behaves under stress.
 Yes, I have had to track down performance issues in production before. By analyzing the data from these tools and making iterative improvements, we were able to significantly enhance the page performance.
 
-4. Improvements to the Used API
+## 4. Improvements to the Used API
 The Open Library API is quite robust, but there's always room for improvement:
 
-Rate Limiting Information: Provide clear documentation and headers about rate limits to prevent consumer errors.
-Caching Strategies: Implement server-side caching for common requests to reduce load and improve response times.
-Enhanced Search Capabilities: Offer more granular search filters and full-text search capabilities.
-Bulk Data Requests: Allow for bulk data requests to reduce the number of separate calls needed for large datasets.
+- **Rate Limiting Information:** Provide clear documentation and headers about rate limits to prevent consumer errors.
+- **Caching Strategies:** Implement server-side caching for common requests to reduce load and improve response times.
+- **Enhanced Search Capabilities:** Offer more granular search filters and full-text search capabilities.
+- **Bulk Data Requests:** Allow for bulk data requests to reduce the number of separate calls needed for large datasets.
 
-
+## 5. Please describe yourself using correctly formatted JSON.
+```json
+{
+  "name": "Zhengxin(Edward) Han",
+  "contact": {
+    "phone": "(1) 647 869 0406",
+    "location": "Toronto, Ontario, Canada",
+    "email": "edwardhan456@gmail.com"
+  },
+  "workExperience": [
+    {
+      "title": " Full Stack Developer",
+      "company": "Remobytes",
+      "location": "Toronto, Ontario, Canada",
+      "responsibilities": [
+        "Spearheaded the design and execution of advanced React.js interfaces.",
+        "Developed a feature-rich single-page application using React.",
+        "Integrated RxJS for state management.",
+        "Established a CI/CD pipeline using Git.",
+        "Collaborated with UI designers and QA team."
+      ]
+    },
+  ],
+  "education": {
+    "degree": "Bachelor of Science",
+    "institution": "University of Toronto, St. George",
+    "location": "Toronto, Ontario, Canada",
+    "years": "Sep 2015 - Jun 2019"
+  },
+  "projects": [
+    {
+      "name": "IT project for a legal service company",
+      "url": "https://trisamlegal.com/en"
+    },
+    // ... etc
+  ],
+  "technicalSkills": [
+    "React", "Git", "JavaScript", "AWS", "OAuth", "Angular", "TypeScript", "SQL", "HTML", "Docker", "Python"
+  ],
+  "additionalInformation": [
+    "Crypto Research",
+    "Open Source Contribution",
+    "Basketball",
+    "Video games",
+    "Travelling",
+    "Singing"
+  ]
+}
+```
